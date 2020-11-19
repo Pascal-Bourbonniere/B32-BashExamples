@@ -1,7 +1,14 @@
 #!/bin/bash
 
+
+
 nom="Pascal"
 echo  "Pascal Bourbonniere"
+#ou
+echo Pascal 
+#ou
+echo 'Pascal'
+
 
 echo -n "Vive"
 echo "Linux"
@@ -10,7 +17,7 @@ echo "Linux"
 
 echo -e "1\n2\n3\n4" #-e interprete les metacaracteres
 
-read -p "My name is?" nom
+read -p "My name is? " nom
 #read c'est comme un cin
 #, -p "mon message"
 # varaiable_qui_recoit _la valeur, ici nom
